@@ -1,7 +1,10 @@
 # pokedex
 This is a project I did for my honors course in 'Python for Everybody Specialization' by University of Michigan on Coursera.com.
 
-For my Kanto Pokedex project, I created two python files: one for creating a database of the data that I acquired, and one for modeling that data in a bubble chart.  
+The files named pdexmodel.py and  pokemon.py are my python code.
+The file named pdexjson.json is a dataset in json that I downloaded from user jdorfman on GitHub.
+
+For my Kanto Pokedex project, I created two python files: one for creating a database of the data that I acquired from another GitHub user, and one for modeling that data in a bubble chart.  
 
 The data contains statistics for Pokemon from the Kanto region (Pokemon are fantasy monsters that battle to see who gets knocked out first, but don't worry, they get healed up afterwards.)  This data consists of things like the Pokemon's type (what element they represent, such as Fire or Water), their weaknesses, their height and weight, and their name.
 
