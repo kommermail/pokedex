@@ -39,8 +39,3 @@ print(df)
 fig=px.scatter(df, x="Number of Weaknesses", y="Weight (in kg)", size="Height (in m)", hover_data="Name")
 fig.show()
 
-
-
-# .rename(columns="index":"weaknesses",
-#                 "variable":"wt",
-#                 "value":'height')
