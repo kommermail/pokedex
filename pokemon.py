@@ -6,12 +6,6 @@ import json
 conec=sqlite3.connect('kpokedex.sqlite')
 cur=conec.cursor()
 
-#make new tables
-
-#dropped things:
-# next_evo TEXT UNIQUE,
-# prev_evo TEXT UNIQUE
-
 cur.executescript('''
 DROP TABLE IF EXISTS Pokemon;
 DROP TABLE IF EXISTS Types;
