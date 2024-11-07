@@ -8,8 +8,6 @@ import re
 
 conec=sqlite3.connect('kpokedex.sqlite')
 cur=conec.cursor()
-#Pokemon.name
-#put height in here v
 
 data=cur.execute('''SELECT Pokemon.name, Weaknesses.weaknesses_num, Height.ht, Weight.wt 
                 FROM Pokemon
